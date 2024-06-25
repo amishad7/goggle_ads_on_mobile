@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: Center(
         child: SizedBox(
-          height: 400,
+          height: 410,
           child: AdWidget(
             ad: AdHelper.adHelper.nativeAd!,
           ),
